@@ -4,6 +4,8 @@ import RutaAdmin from "./components/RutaAdmin";
 import Home from "./pages/Home";
 import Productos from "./pages/Productos";
 import ProductoDetalle from "./pages/ProductosDetalle";
+import Nosotros from "./pages/Nosotros";
+import Blogs from "./pages/Blogs";
 import Contacto from "./pages/Contacto";
 import Login from "./pages/Login";
 import Registro from "./pages/Registro";
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<Productos />} />
         <Route path="/producto/:codigo" element={<ProductoDetalle />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
